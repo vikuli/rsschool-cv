@@ -1,5 +1,5 @@
 # Viktoryia Novikava
-## Contact:
+## Contacts:
 *Phone number:* +375298486809\
 *E-mail:* vikukulichka.terekhova@gmail.com\
 *Nickname on the Rs school discord server:* Viktoryia Novikava (@vikuli)
@@ -26,3 +26,10 @@ var countBits = function(n) {
   return b.filter(n => n).length
 };
 ```
+## Experience:
+Tasks on JavaScript/Front-end Pre-School on the basis of the RS school
+## Education:
+* Civil engineer at the Belarusian-Russian University (2013-2018)
+* JavaScript/Front-end Pre-School
+## English level: 
+A2 (Pre-Intermediate)
