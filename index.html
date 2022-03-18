@@ -70,8 +70,11 @@
       </div>
       <div class="skills-text">
         <ol>
-          <li>I'm at the stage of learning programming languagess</li>
-          <li>Easy to learn</li>
+          <li>HTML, CSS, CSS Flex</li>
+          <li>GIT</li>
+          <li>JavaScript (Basic)</li>
+          <li>VS Code</li>
+          <li>Adobe Photoshop</li>
         </ol>
       </div>
 
@@ -81,10 +84,16 @@
       <div class="example-code">
         <pre>
                 <code>
-                 function multiply(a, b){
-                   c=a * b
-                   return(c)
-                 }
+                    var countBits = function(n) {
+                        let a = n.toString(2).split('');
+                        let b = [];
+                        for(let i = 0; i < a.length; i++) {
+                          if(a[i] === '1') {
+                            b[i] = a[i];
+                          }
+                        }
+                        return b.filter(n => n).length;
+                    };
                 </code>
             </pre>
       </div>
@@ -93,18 +102,50 @@
         <h2>Experience</h2>
       </div>
       <div class="experience-text">
-        <p>
-          <a href="https://vikuli.github.io/rsschool-cv/cv"
-            >CV#1. Markdown & Git on the basis of the RS school</a
-          >
-        </p>
+        <div>
+          Some of the work I did on the course "JavaScript/Front-end Pre-School"
+          at the Rolling scopes school:
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://rolling-scopes-school.github.io/vikuli-JSFEPRESCHOOL/portfolio/"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://rolling-scopes-school.github.io/vikuli-JSFEPRESCHOOL/js30/"
+                >Music player</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://rolling-scopes-school.github.io/vikuli-JSFEPRESCHOOL/js302/"
+                >Image galery</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://rolling-scopes-school.github.io/vikuli-JSFEPRESCHOOL/js303/"
+                >Tic Tac Toe</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
 
       <div class="education" id="education">
         <h2>Education</h2>
       </div>
       <div class="education-text">
-        <p>Civil engineer at the Belarusian-Russian University (2013-2018)</p>
+        <ul>
+          <li>
+            Civil engineer at the Belarusian-Russian University (2013-2018)
+          </li>
+          <li>JavaScript/Front-end Pre-School at the Rolling scopes school</li>
+        </ul>
       </div>
 
       <div class="english" id="english-level">
@@ -119,10 +160,7 @@
       <div class="footer">
         <p class="github">
           <a href="https://github.com/vikuli"
-            ><img
-              src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
-              alt="gitlog"
-              class="gitlog"
+            ><img src="GitHub-Mark-64px.png" alt="gitlog" class="gitlog"
           /></a>
         </p>
         <p class="year">2022</p>
