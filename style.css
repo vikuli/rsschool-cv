@@ -9,21 +9,37 @@ html {
 }
 
 body {
-  max-width: 1440px;
   margin: 0 auto;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 20px;
+  font-family: "Candara";
+  font-size: 1.8vw;
+}
+
+.header {
+  width: 100vw;
+  height: 7vw;
+  background-color: #636250;
+  box-shadow: 0 5px 20px #2d4434;
+  display: flex;
+  align-items: center;
 }
 
 h1 {
-  font-size: 350%;
+  font-size: 6vw;
+  line-height: 8vw;
   padding: 0px;
   margin: 5px 0px;
 }
 
 h2 {
-  font-size: 130%;
-  margin: 5px 0px;
+  font-size: 2.5vw;
+  line-height: 4vw;
+  margin: 0;
+}
+
+h3 {
+  font-size: 2.2vw;
+  line-height: 3.5vw;
+  margin: 0;
 }
 
 a {
@@ -38,8 +54,7 @@ a:hover {
 }
 
 .nav {
-  padding: 10px;
-  background-color: #636250;
+  width: 100%;
 }
 
 .nav-list {
@@ -55,7 +70,7 @@ a:hover {
 
 .profile {
   display: flex;
-  background-color: rgba(45, 68, 52, 0.7);
+  background-color: #2d4434b3;
 }
 
 .profile-name {
@@ -79,10 +94,11 @@ a:hover {
   border-radius: 15%;
 }
 
-.contacts {
+.section-title {
   display: flex;
   justify-content: center;
   background-color: #528e86;
+  filter: drop-shadow(0 0 7px #2d4434);
 }
 
 .contact-list {
@@ -95,12 +111,6 @@ a:hover {
   font-style: italic;
 }
 
-.about-me {
-  display: flex;
-  justify-content: center;
-  background-color: #528e86;
-}
-
 .text-about-me {
   display: flex;
   justify-content: center;
@@ -109,22 +119,10 @@ a:hover {
   line-height: 110%;
 }
 
-.skills {
-  display: flex;
-  justify-content: center;
-  background-color: #528e86;
-}
-
 .skills-text {
   display: flex;
   justify-content: center;
   background-color: #dcdde2;
-}
-
-.code {
-  display: flex;
-  justify-content: center;
-  background-color: #528e86;
 }
 
 .example-code {
@@ -135,12 +133,6 @@ a:hover {
   line-height: 100%;
 }
 
-.experience {
-  display: flex;
-  justify-content: center;
-  background-color: #528e86;
-}
-
 .experience-text {
   display: flex;
   flex-direction: column;
@@ -149,10 +141,8 @@ a:hover {
   background-color: #dcdde2;
 }
 
-.education {
-  display: flex;
-  justify-content: center;
-  background-color: #528e86;
+.experience-list {
+  margin: 0 0 15px;
 }
 
 .education-text {
@@ -161,12 +151,6 @@ a:hover {
   align-items: center;
   justify-content: center;
   background-color: #dcdde2;
-}
-
-.english {
-  display: flex;
-  justify-content: center;
-  background-color: #528e86;
 }
 
 .english-level {
@@ -181,6 +165,7 @@ a:hover {
   align-items: center;
   background-color: #636250;
   margin: 0px;
+  box-shadow: 0 -1px 10px 7px #2d44349d;
 }
 
 .github {
@@ -205,9 +190,37 @@ a:hover {
 .gitlog {
   width: 100%;
   height: 100%;
+  object-fit: contain;
 }
 
 .rslog {
   width: 100%;
   height: 100%;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 481px) {
+  .profile {
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+  }
+
+  .profile-photo {
+    height: 30vw;
+    width: auto;
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 8vw;
+    line-height: 9vw;
+  }
+
+  h2 {
+    font-size: 3.3vw;
+    line-height: 4vw;
+  }
 }

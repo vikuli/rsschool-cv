@@ -9,7 +9,7 @@
     <link rel="icon" href="favicon.ico" />
   </head>
   <body>
-    <header class="container">
+    <header class="header">
       <nav class="nav">
         <ul class="nav-list">
           <li class="nav-item"><a href="#profile">Profile</a></li>
@@ -24,19 +24,19 @@
       </nav>
     </header>
 
-    <main class="container">
+    <main class="main">
       <div class="profile">
         <div class="profile-name">
           <h1>Viktoryia Novikava</h1>
-          <h2>Beginning developer</h2>
+          <h2>Junior Front-end Developer</h2>
         </div>
         <div class="profile-photo" id="profile">
           <img src="1531777001410.JPG" alt="profile photo" class="photo" />
         </div>
       </div>
 
-      <div class="contacts" id="contacts">
-        <h2>Contacts</h2>
+      <div class="section-title" id="contacts">
+        <h3>Contacts</h3>
       </div>
       <div class="contact-list">
         <ul>
@@ -54,8 +54,8 @@
         </ul>
       </div>
 
-      <div class="about-me" id="about-me">
-        <h2>About me</h2>
+      <div class="section-title" id="about-me">
+        <h3>About me</h3>
       </div>
       <div class="text-about-me">
         <p>
@@ -65,21 +65,24 @@
         </p>
       </div>
 
-      <div class="skills" id="skills">
-        <h2>Skills</h2>
+      <div class="section-title" id="skills">
+        <h3>Skills</h3>
       </div>
       <div class="skills-text">
-        <ol>
-          <li>HTML, CSS, CSS Flex</li>
+        <ul>
+          <li>HTML, CSS, SCSS, SASS</li>
+          <li>CSS Flex, CSS Grid</li>
+          <li>Responsive and Adaptive Design</li>
+          <li>JavaScript</li>
           <li>GIT</li>
-          <li>JavaScript (Basic)</li>
           <li>VS Code</li>
-          <li>Adobe Photoshop</li>
-        </ol>
+          <li>DevTools</li>
+          <li>Figma</li>
+        </ul>
       </div>
 
-      <div class="code" id="example-code">
-        <h2>Example code</h2>
+      <div class="section-title" id="example-code">
+        <h3>Example code</h3>
       </div>
       <div class="example-code">
         <pre>
@@ -98,16 +101,16 @@
             </pre>
       </div>
 
-      <div class="experience" id="experience">
-        <h2>Experience</h2>
+      <div class="section-title" id="experience">
+        <h3>Experience</h3>
       </div>
       <div class="experience-text">
-        <div>
+        <p>
           Some of the work I did on the course "JavaScript/Front-end Pre-School"
           at the Rolling scopes school:
-        </div>
+        </p>
         <div>
-          <ul>
+          <ul class="experience-list">
             <li>
               <a
                 href="https://rolling-scopes-school.github.io/vikuli-JSFEPRESCHOOL/portfolio/"
@@ -132,24 +135,30 @@
                 >Tic Tac Toe</a
               >
             </li>
+            <li>
+              <a
+                href="https://rolling-scopes-school.github.io/vikuli-JSFE2022Q1/shelter/pages/main/index.html"
+                >Shelter for pets</a
+              >
+            </li>
           </ul>
         </div>
       </div>
 
-      <div class="education" id="education">
-        <h2>Education</h2>
+      <div class="section-title" id="education">
+        <h3>Education</h3>
       </div>
       <div class="education-text">
         <ul>
           <li>
             Civil engineer at the Belarusian-Russian University (2013-2018)
           </li>
-          <li>JavaScript/Front-end Pre-School at the Rolling scopes school</li>
+          <li>JavaScript/Front-end at the Rolling scopes school</li>
         </ul>
       </div>
 
-      <div class="english" id="english-level">
-        <h2>English level</h2>
+      <div class="section-title" id="english-level">
+        <h3>English level</h3>
       </div>
       <div class="english-level">
         <p>A2 (Pre-Intermediate)</p>
@@ -158,20 +167,20 @@
 
     <footer class="container">
       <div class="footer">
-        <p class="github">
+        <div class="github">
           <a href="https://github.com/vikuli"
             ><img src="GitHub-Mark-64px.png" alt="gitlog" class="gitlog"
           /></a>
-        </p>
+        </div>
         <p class="year">2022</p>
-        <p class="rsschool">
+        <div class="rsschool">
           <a href="https://rs.school/js"
             ><img
               src="https://rs.school/images/rs_school_js.svg"
               alt="rslog"
               class="rslog"
           /></a>
-        </p>
+        </div>
       </div>
     </footer>
   </body>
