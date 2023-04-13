@@ -1,0 +1,227 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0 auto;
+  font-family: "Candara";
+  font-size: 1.8vw;
+}
+
+.header {
+  width: 100vw;
+  height: 7vw;
+  background-color: #636250;
+  box-shadow: 0 5px 20px #2d4434;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-size: 6vw;
+  line-height: 8vw;
+  padding: 0px;
+  margin: 5px 0px;
+}
+
+h2 {
+  font-size: 2.5vw;
+  line-height: 4vw;
+  margin: 0;
+}
+
+h3 {
+  font-size: 2.2vw;
+  line-height: 3.5vw;
+  margin: 0;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  filter: drop-shadow(0 0 5px #528e86);
+  transition: ease-in-out 0.5s;
+}
+
+a:hover {
+  filter: drop-shadow(0 0 5px #fbff00);
+}
+
+.nav {
+  width: 100%;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px;
+}
+
+.nav-item {
+  list-style: none;
+}
+
+.profile {
+  display: flex;
+  background-color: #2d4434b3;
+}
+
+.profile-name {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 300%;
+}
+
+.profile-photo {
+  width: 20%;
+  display: flex;
+  padding: 20px 20px 20px 0px;
+}
+
+.photo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 15%;
+}
+
+.section-title {
+  display: flex;
+  justify-content: center;
+  background-color: #528e86;
+  filter: drop-shadow(0 0 7px #2d4434);
+}
+
+.contact-list {
+  display: flex;
+  justify-content: center;
+  background-color: #dcdde2;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.text-about-me {
+  display: flex;
+  justify-content: center;
+  background-color: #dcdde2;
+  padding: 0px 50px;
+  line-height: 110%;
+}
+
+.skills-text {
+  display: flex;
+  justify-content: center;
+  background-color: #dcdde2;
+}
+
+.example-code {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  background-color: #dcdde2;
+  line-height: 100%;
+}
+
+.experience-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dcdde2;
+}
+
+.experience-list {
+  margin: 0 0 15px;
+}
+
+.education-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #dcdde2;
+}
+
+.english-level {
+  display: flex;
+  justify-content: center;
+  background-color: #dcdde2;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #636250;
+  margin: 0px;
+  box-shadow: 0 -1px 10px 7px #2d44349d;
+}
+
+.github {
+  width: 5%;
+  display: flex;
+  margin: 5px;
+}
+
+.year {
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+.rsschool {
+  width: 10%;
+  display: flex;
+  margin: 5px;
+}
+
+.gitlog {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.rslog {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 481px) {
+  .profile {
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+  }
+
+  .profile-photo {
+    width: 35vw;
+    height: auto;
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 8vw;
+    line-height: 9vw;
+  }
+
+  h2 {
+    font-size: 3.3vw;
+    line-height: 4vw;
+  }
+}

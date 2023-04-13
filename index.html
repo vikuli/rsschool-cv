@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume of the future programmer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.ico" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#profile">Profile</a></li>
+          <li class="nav-item"><a href="#contacts">Contacts</a></li>
+          <li class="nav-item"><a href="#about-me">About me</a></li>
+          <li class="nav-item"><a href="#skills">Skills</a></li>
+          <li class="nav-item"><a href="#example-code">Example code</a></li>
+          <li class="nav-item"><a href="#experience">Experience</a></li>
+          <li class="nav-item"><a href="#education">Education</a></li>
+          <li class="nav-item"><a href="#english-level">English level</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <div class="profile">
+        <div class="profile-name">
+          <h1>Viktoryia Novikava</h1>
+          <h2>Junior Front-end Developer</h2>
+        </div>
+        <div class="profile-photo" id="profile">
+          <img src="1531777001410.JPG" alt="profile photo" class="photo" />
+        </div>
+      </div>
+
+      <div class="section-title" id="contacts">
+        <h3>Contacts</h3>
+      </div>
+      <div class="contact-list">
+        <ul>
+          <li class="nav-item">
+            <span class="italics">Phone number:</span> +375298486809
+          </li>
+          <li class="nav-item">
+            <span class="italics">E-mail:</span>
+            vikukulichka.terekhova@gmail.com
+          </li>
+          <li class="nav-item">
+            <span class="italics">Github:</span>
+            <a href="https://github.com/vikuli">vikuli</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="section-title" id="about-me">
+        <h3>About me</h3>
+      </div>
+      <div class="text-about-me">
+        <p>
+          I strive for constant self-development. I always show perseverance in
+          achieving my goals. I have just started to study programming
+          languages, but I am sure that I will be successful in this direction.
+        </p>
+      </div>
+
+      <div class="section-title" id="skills">
+        <h3>Skills</h3>
+      </div>
+      <div class="skills-text">
+        <ul>
+          <li>HTML, CSS, SCSS, SASS</li>
+          <li>CSS Flex, CSS Grid</li>
+          <li>Responsive and Adaptive Design</li>
+          <li>JavaScript</li>
+          <li>GIT</li>
+          <li>VS Code</li>
+          <li>DevTools</li>
+          <li>Figma</li>
+        </ul>
+      </div>
+
+      <div class="section-title" id="example-code">
+        <h3>Example code</h3>
+      </div>
+      <div class="example-code">
+        <pre>
+                <code>
+                    var countBits = function(n) {
+                        let a = n.toString(2).split('');
+                        let b = [];
+                        for(let i = 0; i < a.length; i++) {
+                          if(a[i] === '1') {
+                            b[i] = a[i];
+                          }
+                        }
+                        return b.filter(n => n).length;
+                    };
+                </code>
+            </pre>
+      </div>
+
+      <div class="section-title" id="experience">
+        <h3>Experience</h3>
+      </div>
+      <div class="experience-text">
+        <p>
+          Some of the work I did on the course "JavaScript/Front-end Pre-School"
+          at the Rolling scopes school:
+        </p>
+        <div>
+          <ul class="experience-list">
+            <li>
+              <a
+                href="https://rolling-scopes-school.github.io/vikuli-JSFEPRESCHOOL/portfolio/"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://rolling-scopes-school.github.io/vikuli-JSFEPRESCHOOL/js30/"
+                >Music player</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://rolling-scopes-school.github.io/vikuli-JSFEPRESCHOOL/js302/"
+                >Image galery</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://rolling-scopes-school.github.io/vikuli-JSFEPRESCHOOL/js303/"
+                >Tic Tac Toe</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://rolling-scopes-school.github.io/vikuli-JSFE2022Q1/shelter/pages/main/index.html"
+                >Shelter for pets</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section-title" id="education">
+        <h3>Education</h3>
+      </div>
+      <div class="education-text">
+        <ul>
+          <li>
+            Civil engineer at the Belarusian-Russian University (2013-2018)
+          </li>
+          <li>JavaScript/Front-end at the Rolling scopes school</li>
+        </ul>
+      </div>
+
+      <div class="section-title" id="english-level">
+        <h3>English level</h3>
+      </div>
+      <div class="english-level">
+        <p>A2 (Pre-Intermediate)</p>
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="footer">
+        <div class="github">
+          <a href="https://github.com/vikuli"
+            ><img src="GitHub-Mark-64px.png" alt="gitlog" class="gitlog"
+          /></a>
+        </div>
+        <p class="year">2022</p>
+        <div class="rsschool">
+          <a href="https://rs.school/js"
+            ><img
+              src="https://rs.school/images/rs_school_js.svg"
+              alt="rslog"
+              class="rslog"
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
